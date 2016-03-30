@@ -10,22 +10,25 @@ second <- function(x){
 }
 
 
-y<-subset.matrix(x,x$Ozone>31 & x$Temp>90)
+#y<-subset.matrix(x,x$Ozone>31 & x$Temp>90)
 
-mean(y[,2])
-
-
-good<-complete.cases(y[,1])
-y[good,]
-as.data.frame(y[good,2])
-
-y[good,1]
-
-max(y[good,1])
+#mean(y[,2])
 
 
+#good<-complete.cases(y[,1])
+# y[good,]
+# as.data.frame(y[good,2])
+# 
+# y[good,1]
+# 
+# max(y[good,1])
+# 
+# 
+# 
+# library(swirl)
 
-library(swirl)
+#subset.data.frame(myData,myData$ID=='6')
+
 
 
 complete <-function(directory,id=1:332){
@@ -113,6 +116,5 @@ load_data <- function(path) {
   do.call(rbind, tables)
 }
 
-subset.data.frame(myData,myData$ID=='6')
 
 
