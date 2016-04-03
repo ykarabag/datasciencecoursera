@@ -34,7 +34,7 @@ second <- function(x){
 complete <-function(directory,id=1:332){
         
         
-        res<-data.frame("ID"=numeric(),"nobs"=numeric())
+        res<-data.frame("ID"=numeric(),"nobs"=numeric(2,7))
         mydata<-load_data(directory)
         
         idList<-as.character(c(id))
