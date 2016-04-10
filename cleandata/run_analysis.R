@@ -3,10 +3,10 @@ library(dplyr)
 library(tidyr)
 
 ## prepare filepath constants
-        pathtest <-"cleandata/dataset/test"
-        pathtrain<-"cleandata/dataset/train"
-        pathroot <-"cleandata/dataset"
-        pathoutput <-"cleandata/output"
+        pathtest <-"dataset/test"
+        pathtrain<-"dataset/train"
+        pathroot <-"dataset"
+        pathoutput <-"output"
         
 
 ## load test data files, assign column name to subject
